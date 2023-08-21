@@ -1,0 +1,21 @@
+#root {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+nav > a {
+  margin: 0 1rem;
+  color: #646cff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 300ms;
+}
